@@ -1937,3 +1937,94 @@ Please take a look at these docs to improve your DAG import time:
 [2024-06-22T16:31:50.196+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:31:50.195+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-22T16:31:50.239+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:31:50.239+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
 [2024-06-22T16:31:50.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.723 seconds
+[2024-06-22T16:32:20.687+0000] {processor.py:161} INFO - Started process (PID=8145) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:32:20.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:32:20.702+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:32:20.701+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:32:21.652+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:32:21.695+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:32:21.694+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:32:21.749+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:32:21.748+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:32:21.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 1.188 seconds
+[2024-06-22T16:32:51.917+0000] {processor.py:161} INFO - Started process (PID=8181) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:32:51.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:32:51.920+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:32:51.920+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:32:52.438+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:32:52.481+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:32:52.480+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:32:52.527+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:32:52.527+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:32:52.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.749 seconds
+[2024-06-22T16:33:22.777+0000] {processor.py:161} INFO - Started process (PID=8217) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:33:22.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:33:22.780+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:33:22.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:33:23.350+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:33:23.384+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:33:23.383+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:33:23.416+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:33:23.416+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:33:23.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.710 seconds
+[2024-06-22T16:33:53.656+0000] {processor.py:161} INFO - Started process (PID=8254) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:33:53.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:33:53.659+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:33:53.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:33:54.619+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:33:54.678+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:33:54.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:33:54.735+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:33:54.735+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:33:54.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 1.204 seconds
+[2024-06-22T16:34:25.048+0000] {processor.py:161} INFO - Started process (PID=8291) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:34:25.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:34:25.051+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:34:25.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:34:25.585+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:34:25.617+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:34:25.616+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:34:25.654+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:34:25.653+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:34:25.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.679 seconds
+[2024-06-22T16:34:55.820+0000] {processor.py:161} INFO - Started process (PID=8327) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:34:55.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:34:55.825+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:34:55.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:34:56.389+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:34:56.426+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:34:56.425+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:34:56.461+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:34:56.461+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:34:56.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.728 seconds
+[2024-06-22T16:35:26.831+0000] {processor.py:161} INFO - Started process (PID=8363) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:35:26.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:35:26.834+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:35:26.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:35:27.409+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:35:27.441+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:35:27.440+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:35:27.474+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:35:27.473+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:35:27.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.723 seconds
+[2024-06-22T16:35:57.781+0000] {processor.py:161} INFO - Started process (PID=8399) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:35:57.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:35:57.788+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:35:57.787+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:35:58.527+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:35:58.562+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:35:58.562+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:35:58.602+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:35:58.602+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:35:58.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.913 seconds
+[2024-06-22T16:36:29.638+0000] {processor.py:161} INFO - Started process (PID=8435) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:36:29.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:36:29.641+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:36:29.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:36:30.238+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:36:30.275+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:36:30.275+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:36:30.331+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:36:30.330+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:36:30.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.960 seconds
+[2024-06-22T16:37:00.914+0000] {processor.py:161} INFO - Started process (PID=8472) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:37:00.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:37:00.917+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:37:00.916+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:37:01.403+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:37:01.435+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:37:01.434+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:37:01.465+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:37:01.465+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:37:01.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.758 seconds
+[2024-06-22T16:37:31.941+0000] {processor.py:161} INFO - Started process (PID=8508) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:37:31.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:37:31.944+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:37:31.944+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:37:32.467+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:37:32.502+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:37:32.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:37:32.542+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:37:32.542+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:37:32.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.726 seconds
+[2024-06-22T16:38:02.969+0000] {processor.py:161} INFO - Started process (PID=8543) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:38:02.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:38:02.973+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:38:02.972+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:38:03.473+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:38:03.504+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:38:03.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:38:03.544+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:38:03.544+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:38:03.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.688 seconds
+[2024-06-22T16:38:34.417+0000] {processor.py:161} INFO - Started process (PID=8582) to work on /opt/airflow/dags/rush.py
+[2024-06-22T16:38:34.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rush.py for tasks to queue
+[2024-06-22T16:38:34.420+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:38:34.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rush.py
+[2024-06-22T16:38:35.026+0000] {processor.py:840} INFO - DAG(s) 'load_csv_dag' retrieved from /opt/airflow/dags/rush.py
+[2024-06-22T16:38:35.075+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:38:35.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:38:35.118+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:38:35.117+0000] {dag.py:3954} INFO - Setting next_dagrun for load_csv_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:38:35.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rush.py took 0.780 seconds

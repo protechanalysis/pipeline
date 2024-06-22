@@ -12,3 +12,7 @@ dags\postgres.py follows the path of the "dags\randomAPI.py" but pushing the dat
 dags\postgres_s3.py follows dags\postgres.py pulling data from the database and pushing it to S3 bucket in aws each a time 
         a user data is extrated and transform it is inserted into postgres and the updated data is pushed into S3, the bucket
         has versioning enabled which also us to see and download the previous data pushed provided that the name is the same.
+
+
+
+git push
