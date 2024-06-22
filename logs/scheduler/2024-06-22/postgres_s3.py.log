@@ -3862,3 +3862,255 @@ SyntaxError: invalid syntax
 [2024-06-22T16:08:11.634+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:08:11.633+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-22T16:08:11.675+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:08:11.674+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
 [2024-06-22T16:08:14.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 3.399 seconds
+[2024-06-22T16:08:45.396+0000] {processor.py:161} INFO - Started process (PID=6519) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:08:45.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:08:45.399+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:08:45.398+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:08:46.103+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:08:46.199+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:08:46.198+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:08:46.230+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:08:46.230+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:08:46.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.032 seconds
+[2024-06-22T16:09:16.629+0000] {processor.py:161} INFO - Started process (PID=6549) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:09:16.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:09:16.632+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:09:16.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:09:17.165+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:09:17.197+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:09:17.196+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:09:17.230+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:09:17.229+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:09:17.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.036 seconds
+[2024-06-22T16:09:48.290+0000] {processor.py:161} INFO - Started process (PID=6585) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:09:48.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:09:48.299+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:09:48.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:09:48.789+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:09:48.817+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:09:48.816+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:09:48.845+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:09:48.844+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:09:50.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.801 seconds
+[2024-06-22T16:10:20.592+0000] {processor.py:161} INFO - Started process (PID=6623) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:10:20.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:10:20.595+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:10:20.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:10:21.368+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:10:21.419+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:10:21.418+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:10:21.480+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:10:21.480+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:10:22.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.713 seconds
+[2024-06-22T16:10:52.519+0000] {processor.py:161} INFO - Started process (PID=6658) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:10:52.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:10:52.522+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:10:52.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:10:53.101+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:10:53.153+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:10:53.153+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:10:53.185+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:10:53.184+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:10:53.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.954 seconds
+[2024-06-22T16:11:23.597+0000] {processor.py:161} INFO - Started process (PID=6694) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:11:23.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:11:23.600+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:11:23.599+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:11:24.112+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:11:24.147+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:11:24.146+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:11:24.180+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:11:24.180+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:11:24.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.898 seconds
+[2024-06-22T16:11:55.044+0000] {processor.py:161} INFO - Started process (PID=6729) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:11:55.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:11:55.047+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:11:55.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:11:55.508+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:11:55.535+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:11:55.534+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:11:55.564+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:11:55.564+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:11:55.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.800 seconds
+[2024-06-22T16:12:26.306+0000] {processor.py:161} INFO - Started process (PID=6771) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:12:26.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:12:26.308+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:12:26.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:12:26.955+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:12:26.987+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:12:26.987+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:12:27.022+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:12:27.022+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:12:27.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.808 seconds
+[2024-06-22T16:12:57.619+0000] {processor.py:161} INFO - Started process (PID=6807) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:12:57.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:12:57.623+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:12:57.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:12:58.162+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:12:58.195+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:12:58.195+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:12:58.228+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:12:58.228+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:12:58.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.677 seconds
+[2024-06-22T16:13:28.504+0000] {processor.py:161} INFO - Started process (PID=6843) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:13:28.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:13:28.508+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:13:28.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:13:29.024+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:13:29.058+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:13:29.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:13:29.091+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:13:29.090+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:13:29.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.673 seconds
+[2024-06-22T16:13:59.310+0000] {processor.py:161} INFO - Started process (PID=6880) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:13:59.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:13:59.313+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:13:59.312+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:13:59.753+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:13:59.779+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:13:59.778+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:13:59.807+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:13:59.806+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:13:59.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.566 seconds
+[2024-06-22T16:14:30.854+0000] {processor.py:161} INFO - Started process (PID=6915) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:14:30.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:14:30.857+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:14:30.856+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:14:31.406+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:14:31.438+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:14:31.438+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:14:31.470+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:14:31.469+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:14:31.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.684 seconds
+[2024-06-22T16:15:01.603+0000] {processor.py:161} INFO - Started process (PID=6947) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:15:01.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:15:01.606+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:15:01.605+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:15:02.205+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:15:02.246+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:15:02.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:15:02.285+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:15:02.284+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:15:02.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.814 seconds
+[2024-06-22T16:15:32.765+0000] {processor.py:161} INFO - Started process (PID=6983) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:15:32.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:15:32.767+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:15:32.767+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:15:33.269+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:15:33.303+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:15:33.302+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:15:33.334+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:15:33.334+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:15:33.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.659 seconds
+[2024-06-22T16:16:03.963+0000] {processor.py:161} INFO - Started process (PID=7019) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:16:03.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:16:03.967+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:16:03.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:16:04.493+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:16:04.523+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:16:04.522+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:16:04.553+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:16:04.552+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:16:04.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.683 seconds
+[2024-06-22T16:16:34.774+0000] {processor.py:161} INFO - Started process (PID=7055) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:16:34.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:16:34.777+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:16:34.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:16:35.308+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:16:35.341+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:16:35.341+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:16:35.377+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:16:35.376+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:16:35.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.686 seconds
+[2024-06-22T16:17:06.066+0000] {processor.py:161} INFO - Started process (PID=7092) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:17:06.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:17:06.071+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:17:06.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:17:06.928+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:17:06.987+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:17:06.986+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:17:07.042+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:17:07.041+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:17:07.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.221 seconds
+[2024-06-22T16:17:37.576+0000] {processor.py:161} INFO - Started process (PID=7128) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:17:37.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:17:37.587+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:17:37.586+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:17:38.332+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:17:38.378+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:17:38.377+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:17:38.419+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:17:38.419+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:17:38.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.939 seconds
+[2024-06-22T16:18:08.955+0000] {processor.py:161} INFO - Started process (PID=7165) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:18:08.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:18:08.958+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:18:08.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:18:09.742+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:18:09.823+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:18:09.821+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:18:09.963+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:18:09.962+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:18:10.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.251 seconds
+[2024-06-22T16:18:40.477+0000] {processor.py:161} INFO - Started process (PID=7201) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:18:40.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:18:40.482+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:18:40.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:18:41.135+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:18:41.205+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:18:41.205+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:18:41.244+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:18:41.244+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:18:41.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.951 seconds
+[2024-06-22T16:19:11.581+0000] {processor.py:161} INFO - Started process (PID=7236) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:19:11.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:19:11.585+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:19:11.584+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:19:12.256+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:19:12.296+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:19:12.296+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:19:12.335+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:19:12.334+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:19:12.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.854 seconds
+[2024-06-22T16:19:42.735+0000] {processor.py:161} INFO - Started process (PID=7273) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:19:42.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:19:42.751+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:19:42.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:19:43.843+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:19:43.903+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:19:43.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:19:43.956+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:19:43.955+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:19:44.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.353 seconds
+[2024-06-22T16:20:14.324+0000] {processor.py:161} INFO - Started process (PID=7309) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:20:14.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:20:14.328+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:20:14.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:20:15.198+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:20:15.245+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:20:15.244+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:20:15.324+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:20:15.323+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:20:15.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.161 seconds
+[2024-06-22T16:20:45.739+0000] {processor.py:161} INFO - Started process (PID=7345) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:20:45.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:20:45.743+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:20:45.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:20:46.662+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:20:46.726+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:20:46.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:20:46.778+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:20:46.778+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:20:46.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.143 seconds
+[2024-06-22T16:21:17.038+0000] {processor.py:161} INFO - Started process (PID=7387) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:21:17.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:21:17.041+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:21:17.041+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:21:17.954+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:21:18.000+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:21:17.999+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:21:18.057+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:21:18.057+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:21:18.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.181 seconds
+[2024-06-22T16:21:48.307+0000] {processor.py:161} INFO - Started process (PID=7423) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:21:48.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:21:48.310+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:21:48.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:21:48.953+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:21:48.991+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:21:48.990+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:21:49.029+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:21:49.029+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:21:50.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.727 seconds
+[2024-06-22T16:22:20.202+0000] {processor.py:161} INFO - Started process (PID=7459) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:22:20.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:22:20.206+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:22:20.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:22:20.759+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:22:20.792+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:22:20.791+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:22:20.832+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:22:20.831+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:22:21.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.853 seconds
+[2024-06-22T16:22:51.235+0000] {processor.py:161} INFO - Started process (PID=7495) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:22:51.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:22:51.238+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:22:51.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:22:51.799+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:22:51.837+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:22:51.836+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:22:51.873+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:22:51.873+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:22:52.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.830 seconds
+[2024-06-22T16:23:22.579+0000] {processor.py:161} INFO - Started process (PID=7531) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:23:22.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:23:22.584+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:23:22.583+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:23:24.056+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:23:24.110+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:23:24.109+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:23:24.166+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:23:24.166+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:23:24.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.913 seconds
+[2024-06-22T16:23:54.912+0000] {processor.py:161} INFO - Started process (PID=7567) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:23:54.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:23:54.917+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:23:54.917+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:23:56.133+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:23:56.172+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:23:56.172+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:23:56.225+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:23:56.224+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:23:56.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.822 seconds
+[2024-06-22T16:24:27.425+0000] {processor.py:161} INFO - Started process (PID=7609) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:24:27.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:24:27.428+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:24:27.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:24:28.097+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:24:28.134+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:24:28.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:24:28.174+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:24:28.173+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:24:28.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.082 seconds
+[2024-06-22T16:24:58.694+0000] {processor.py:161} INFO - Started process (PID=7645) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:24:58.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:24:58.697+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:24:58.696+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:24:59.651+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:24:59.704+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:24:59.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:24:59.743+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:24:59.743+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:24:59.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.283 seconds
+[2024-06-22T16:25:30.222+0000] {processor.py:161} INFO - Started process (PID=7681) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:25:30.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:25:30.226+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:25:30.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:25:30.755+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:25:30.789+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:25:30.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:25:30.822+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:25:30.822+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:25:31.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.164 seconds
+[2024-06-22T16:26:01.572+0000] {processor.py:161} INFO - Started process (PID=7717) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:26:01.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:26:01.576+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:26:01.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:26:02.125+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:26:02.155+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:26:02.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:26:02.185+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:26:02.184+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:26:02.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.690 seconds
+[2024-06-22T16:26:32.416+0000] {processor.py:161} INFO - Started process (PID=7750) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:26:32.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:26:32.430+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:26:32.419+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:26:33.564+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:26:33.617+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:26:33.616+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:26:33.671+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:26:33.671+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:26:33.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 1.530 seconds
+[2024-06-22T16:27:04.270+0000] {processor.py:161} INFO - Started process (PID=7788) to work on /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:27:04.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/postgres_s3.py for tasks to queue
+[2024-06-22T16:27:04.273+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:27:04.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:27:05.087+0000] {processor.py:840} INFO - DAG(s) 'postgres_to_s3' retrieved from /opt/airflow/dags/postgres_s3.py
+[2024-06-22T16:27:05.145+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:27:05.144+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T16:27:05.177+0000] {logging_mixin.py:188} INFO - [2024-06-22T16:27:05.176+0000] {dag.py:3954} INFO - Setting next_dagrun for postgres_to_s3 to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T16:27:05.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/postgres_s3.py took 0.992 seconds
