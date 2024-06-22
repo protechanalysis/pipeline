@@ -1,0 +1,70 @@
+[2024-06-22T14:53:50.418+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-22T14:53:50.447+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_ingest_s3.load_csv manual__2024-06-22T14:53:40.474828+00:00 [queued]>
+[2024-06-22T14:53:50.463+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_ingest_s3.load_csv manual__2024-06-22T14:53:40.474828+00:00 [queued]>
+[2024-06-22T14:53:50.464+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-06-22T14:53:51.022+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_csv> on 2024-06-22 14:53:40.474828+00:00
+[2024-06-22T14:53:51.032+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'csv_ingest_s3', 'load_csv', 'manual__2024-06-22T14:53:40.474828+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/csv_s3.py', '--cfg-path', '/tmp/tmp_dv8eff9']
+[2024-06-22T14:53:51.036+0000] {standard_task_runner.py:91} INFO - Job 10: Subtask load_csv
+[2024-06-22T14:53:51.038+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1791) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-22T14:53:51.039+0000] {standard_task_runner.py:63} INFO - Started process 1793 to run task
+[2024-06-22T14:53:51.707+0000] {task_command.py:426} INFO - Running <TaskInstance: csv_ingest_s3.load_csv manual__2024-06-22T14:53:40.474828+00:00 [running]> on host 6380d29236af
+[2024-06-22T14:53:53.194+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='protectorate' AIRFLOW_CTX_DAG_ID='csv_ingest_s3' AIRFLOW_CTX_TASK_ID='load_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-06-22T14:53:40.474828+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-22T14:53:40.474828+00:00'
+[2024-06-22T14:53:53.195+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-22T14:53:53.647+0000] {python.py:237} INFO - Done. Returned value was:                                               reviews  ... sentiment
+0   ✅ Trip Verified |  I had the most fantastic BA...  ...  positive
+1   ✅ Trip Verified |  Couldn’t book in online. Ar...  ...   neutral
+2   ✅ Trip Verified | London Heathrow to Mumbai in...  ...  positive
+3   ✅ Trip Verified | Keflavík, Iceland to London ...  ...  positive
+4   ✅ Trip Verified | Terrible Experience with Bri...  ...  negative
+5   ✅ Trip Verified | An airline that lives in the...  ...  negative
+6   ✅ Trip Verified |  Check-in Desk rude and dism...  ...  negative
+7   ✅ Trip Verified | I chose British Airways espe...  ...  negative
+8   Not Verified | I booked Premium Economy from I...  ...  negative
+9   ✅ Trip Verified | A simple story with an unfor...  ...   neutral
+10  ✅ Trip Verified |  Flight was delayed due to t...  ...  negative
+11  Not Verified |  Fast and friendly check in (to...  ...  positive
+12  ✅ Trip Verified |  I don't understand why Brit...  ...  positive
+13  Not Verified |  I'm sure that BA have graduall...  ...  negative
+14  ✅ Trip Verified |  Customer Service does not e...  ...  negative
+15  ✅ Trip Verified | Another really great pair of...  ...  positive
+16  Not Verified |  Our A380 developed a fault tax...  ...  negative
+17  Not Verified | Horrible airline. Does not care...  ...  negative
+18  ✅ Trip Verified |  My family and I have flown ...  ...  positive
+19  ✅ Trip Verified |  This has been by far the wo...  ...   neutral
+20  ✅ Trip Verified |  In Nov 2022 I booked and pa...  ...  positive
+21  Not Verified | BA is not treating its premium ...  ...  positive
+22  ✅ Trip Verified |  24 hours before our departu...  ...   neutral
+23  ✅ Trip Verified |  We arrived at Heathrow at 0...  ...  negative
+24  ✅ Trip Verified |  Original flight was cancell...  ...   neutral
+25  Not Verified |  Airport check in was functiona...  ...  positive
+26  ✅ Trip Verified |  Flight fine. In-line with c...  ...  positive
+27  ✅ Trip Verified |  Came from Glasgow to London...  ...  negative
+28  ✅ Trip Verified |  My flight on on 12 May 2023...  ...  negative
+29  Not Verified |  Cairo is a 5 hour flight and B...  ...  negative
+30  ✅ Trip Verified |  After travelling London to ...  ...  negative
+31  ✅ Trip Verified |  My luggage was mis-tagged i...  ...  negative
+32  ✅ Trip Verified |  The airline lost my luggage...  ...  negative
+33  ✅ Trip Verified |  We booked on the BA website...  ...  negative
+34  ✅ Trip Verified |  First time flying with BA b...  ...  negative
+35  Not Verified | You can buy sandwiches and cris...  ...  positive
+36  ✅ Trip Verified |  This is a two-for-one revie...  ...  positive
+37  ✅ Trip Verified | Absolutely horrible airline....  ...  negative
+38  ✅ Trip Verified |  Having experienced delays a...  ...  negative
+39  ✅ Trip Verified | Travelled to Heathrow to Kal...  ...  positive
+40  Not Verified |  This flight failed at every le...  ...  positive
+41  Not Verified |  Beware of British Airways and ...  ...  negative
+42  ✅ Trip Verified |  I flew from Cairo to Heathr...  ...  negative
+43  Not Verified | I flew with numerous airlines, ...  ...  negative
+44  ✅ Trip Verified |  We were traveling as a fami...  ...  negative
+45  ✅ Trip Verified | Flight at 8.40am from DUB to...  ...  negative
+46  ✅ Trip Verified |  Terrible. I have traveled t...  ...  negative
+47  ✅ Trip Verified |  The customer service is ugl...  ...  negative
+48  ✅ Trip Verified |  Most uncomfortable flight I...  ...   neutral
+49  ✅ Trip Verified |  I booked our first out of c...  ...  negative
+
+[50 rows x 13 columns]
+[2024-06-22T14:53:53.672+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-22T14:54:04.251+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=csv_ingest_s3, task_id=load_csv, run_id=manual__2024-06-22T14:53:40.474828+00:00, execution_date=20240622T145340, start_date=20240622T145350, end_date=20240622T145404
+[2024-06-22T14:54:05.131+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-22T14:54:05.186+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-22T14:54:05.518+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

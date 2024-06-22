@@ -1,0 +1,7 @@
+[2024-06-19T05:15:33.789+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/randomAPI.py
+[2024-06-19T05:15:33.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/randomAPI.py for tasks to queue
+[2024-06-19T05:15:33.797+0000] {logging_mixin.py:188} INFO - [2024-06-19T05:15:33.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/randomAPI.py
+[2024-06-19T05:15:35.023+0000] {processor.py:840} INFO - DAG(s) 'rand_request' retrieved from /opt/airflow/dags/randomAPI.py
+[2024-06-19T05:15:35.059+0000] {logging_mixin.py:188} INFO - [2024-06-19T05:15:35.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-19T05:15:35.102+0000] {logging_mixin.py:188} INFO - [2024-06-19T05:15:35.102+0000] {dag.py:3954} INFO - Setting next_dagrun for rand_request to 2024-06-19 04:05:00+00:00, run_after=2024-06-19 05:05:00+00:00
+[2024-06-19T05:15:35.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/randomAPI.py took 1.460 seconds

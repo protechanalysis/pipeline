@@ -1,0 +1,1 @@
+[2024-06-22T15:44:05.250+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: postgres_to_s3.load_to_postgres manual__2024-06-22T15:32:58.871395+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
