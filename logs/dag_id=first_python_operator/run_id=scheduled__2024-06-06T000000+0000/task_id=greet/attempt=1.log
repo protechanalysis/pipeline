@@ -1,0 +1,37 @@
+[2024-06-14T12:45:55.714+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-14T12:45:55.764+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_python_operator.greet scheduled__2024-06-06T00:00:00+00:00 [queued]>
+[2024-06-14T12:45:55.790+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_python_operator.greet scheduled__2024-06-06T00:00:00+00:00 [queued]>
+[2024-06-14T12:45:55.791+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-06-14T12:45:56.042+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): greet> on 2024-06-06 00:00:00+00:00
+[2024-06-14T12:45:56.079+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'first_python_operator', 'greet', 'scheduled__2024-06-06T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/pythonops.py', '--cfg-path', '/tmp/tmpvvg9opjg']
+[2024-06-14T12:45:56.111+0000] {standard_task_runner.py:91} INFO - Job 29: Subtask greet
+[2024-06-14T12:45:56.106+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=457) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-14T12:45:56.124+0000] {standard_task_runner.py:63} INFO - Started process 466 to run task
+[2024-06-14T12:45:56.401+0000] {task_command.py:426} INFO - Running <TaskInstance: first_python_operator.greet scheduled__2024-06-06T00:00:00+00:00 [running]> on host 4ad055bac4bf
+[2024-06-14T12:45:57.013+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='protectorate' AIRFLOW_CTX_DAG_ID='first_python_operator' AIRFLOW_CTX_TASK_ID='greet' AIRFLOW_CTX_EXECUTION_DATE='2024-06-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-06T00:00:00+00:00'
+[2024-06-14T12:45:57.014+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-14T12:45:57.047+0000] {logging_mixin.py:188} INFO - Hello Adewunmi!!!, welcome to *** with python operator
+[2024-06-14T12:45:57.048+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-14T12:45:57.050+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-14T12:45:57.067+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=first_python_operator, task_id=greet, run_id=scheduled__2024-06-06T00:00:00+00:00, execution_date=20240606T000000, start_date=20240614T124555, end_date=20240614T124557
+[2024-06-14T12:45:57.222+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-14T12:45:57.258+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-06-15T10:12:46.297+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-15T10:12:46.421+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_python_operator.greet scheduled__2024-06-06T00:00:00+00:00 [queued]>
+[2024-06-15T10:12:46.581+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_python_operator.greet scheduled__2024-06-06T00:00:00+00:00 [queued]>
+[2024-06-15T10:12:46.582+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-06-15T10:12:46.666+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): greet> on 2024-06-06 00:00:00+00:00
+[2024-06-15T10:12:46.682+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'first_python_operator', 'greet', 'scheduled__2024-06-06T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/pythonops.py', '--cfg-path', '/tmp/tmp72lmzgty']
+[2024-06-15T10:12:46.691+0000] {standard_task_runner.py:91} INFO - Job 31: Subtask greet
+[2024-06-15T10:12:46.705+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2725) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-15T10:12:46.716+0000] {standard_task_runner.py:63} INFO - Started process 2727 to run task
+[2024-06-15T10:12:47.026+0000] {task_command.py:426} INFO - Running <TaskInstance: first_python_operator.greet scheduled__2024-06-06T00:00:00+00:00 [running]> on host d4d3ae2e009b
+[2024-06-15T10:12:47.625+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='protectorate' AIRFLOW_CTX_DAG_ID='first_python_operator' AIRFLOW_CTX_TASK_ID='greet' AIRFLOW_CTX_EXECUTION_DATE='2024-06-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-06T00:00:00+00:00'
+[2024-06-15T10:12:47.628+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-15T10:12:47.696+0000] {logging_mixin.py:188} INFO - Hello Adewunmi!!!, welcome to *** with python operator
+[2024-06-15T10:12:47.697+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-15T10:12:47.698+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-15T10:12:47.717+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=first_python_operator, task_id=greet, run_id=scheduled__2024-06-06T00:00:00+00:00, execution_date=20240606T000000, start_date=20240615T101246, end_date=20240615T101247
+[2024-06-15T10:12:48.046+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-15T10:12:48.127+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-15T10:12:48.451+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

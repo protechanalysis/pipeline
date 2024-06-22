@@ -1,0 +1,21 @@
+[2024-06-17T09:12:08.766+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-17T09:12:08.797+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_to_s3.load_to_s3 manual__2024-06-17T09:09:37.121128+00:00 [queued]>
+[2024-06-17T09:12:08.816+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_to_s3.load_to_s3 manual__2024-06-17T09:09:37.121128+00:00 [queued]>
+[2024-06-17T09:12:08.817+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 6
+[2024-06-17T09:12:09.029+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_to_s3> on 2024-06-17 09:09:37.121128+00:00
+[2024-06-17T09:12:09.042+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'postgres_to_s3', 'load_to_s3', 'manual__2024-06-17T09:09:37.121128+00:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/postgres_s3.py', '--cfg-path', '/tmp/tmp_e1luw7z']
+[2024-06-17T09:12:09.045+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=6138) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-17T09:12:09.047+0000] {standard_task_runner.py:91} INFO - Job 98: Subtask load_to_s3
+[2024-06-17T09:12:09.048+0000] {standard_task_runner.py:63} INFO - Started process 6158 to run task
+[2024-06-17T09:12:09.421+0000] {task_command.py:426} INFO - Running <TaskInstance: postgres_to_s3.load_to_s3 manual__2024-06-17T09:09:37.121128+00:00 [running]> on host dc64bc371a82
+[2024-06-17T09:12:09.897+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='protectorateog@gmail.com' AIRFLOW_CTX_DAG_OWNER='protectorate' AIRFLOW_CTX_DAG_ID='postgres_to_s3' AIRFLOW_CTX_TASK_ID='load_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-06-17T09:09:37.121128+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-17T09:09:37.121128+00:00'
+[2024-06-17T09:12:09.900+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-17T09:12:09.938+0000] {base.py:84} INFO - Using connection ID 'post_s3' for task execution.
+[2024-06-17T09:12:09.968+0000] {base.py:84} INFO - Using connection ID 'simple_store' for task execution.
+[2024-06-17T09:12:09.969+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='simple_store', conn_type='aws') credentials retrieved from login and password.
+[2024-06-17T09:12:12.814+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-17T09:12:12.816+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-17T09:12:12.830+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=postgres_to_s3, task_id=load_to_s3, run_id=manual__2024-06-17T09:09:37.121128+00:00, execution_date=20240617T090937, start_date=20240617T091208, end_date=20240617T091212
+[2024-06-17T09:12:12.933+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-17T09:12:12.954+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-17T09:12:13.004+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

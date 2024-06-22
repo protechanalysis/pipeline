@@ -1,0 +1,14 @@
+this is an airflow project 
+
+dags\randomAPI.py reads random user api from "https://randomuser.me/api/" and transform it at a specify schedule time 
+        then uses "kwargs['ti'].xcom_pull(task_ids='....')" to get the output of an Upstream task for
+        a def func that the downstream depends on.
+
+
+dags\postgres.py follows the path of the "dags\randomAPI.py" but pushing the data onto a postgres DB using connections 
+        in airflow UI and postgres hooks functions
+
+
+dags\postgres_s3.py follows dags\postgres.py pulling data from the database and pushing it to S3 bucket in aws each a time 
+        a user data is extrated and transform it is inserted into postgres and the updated data is pushed into S3, the bucket
+        has versioning enabled which also us to see and download the previous data pushed provided that the name is the same.

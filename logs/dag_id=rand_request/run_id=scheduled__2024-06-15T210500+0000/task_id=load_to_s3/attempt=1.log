@@ -1,0 +1,20 @@
+[2024-06-16T06:38:38.160+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-16T06:38:38.192+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rand_request.load_to_s3 scheduled__2024-06-15T21:05:00+00:00 [queued]>
+[2024-06-16T06:38:38.212+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rand_request.load_to_s3 scheduled__2024-06-15T21:05:00+00:00 [queued]>
+[2024-06-16T06:38:38.214+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-06-16T06:38:38.395+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_to_s3> on 2024-06-15 21:05:00+00:00
+[2024-06-16T06:38:38.447+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=9285) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-16T06:38:38.446+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'rand_request', 'load_to_s3', 'scheduled__2024-06-15T21:05:00+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/rand.py', '--cfg-path', '/tmp/tmpt10p2bp3']
+[2024-06-16T06:38:38.450+0000] {standard_task_runner.py:63} INFO - Started process 9302 to run task
+[2024-06-16T06:38:38.451+0000] {standard_task_runner.py:91} INFO - Job 102: Subtask load_to_s3
+[2024-06-16T06:38:39.036+0000] {task_command.py:426} INFO - Running <TaskInstance: rand_request.load_to_s3 scheduled__2024-06-15T21:05:00+00:00 [running]> on host d4d3ae2e009b
+[2024-06-16T06:38:40.312+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='protectorate' AIRFLOW_CTX_DAG_ID='rand_request' AIRFLOW_CTX_TASK_ID='load_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-06-15T21:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-15T21:05:00+00:00'
+[2024-06-16T06:38:40.314+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-16T06:38:41.949+0000] {base.py:84} INFO - Using connection ID 'simple_store' for task execution.
+[2024-06-16T06:38:42.032+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='simple_store', conn_type='aws') credentials retrieved from login and password.
+[2024-06-16T06:38:45.796+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-16T06:38:45.797+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-16T06:38:45.812+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=rand_request, task_id=load_to_s3, run_id=scheduled__2024-06-15T21:05:00+00:00, execution_date=20240615T210500, start_date=20240616T063838, end_date=20240616T063845
+[2024-06-16T06:38:46.667+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-16T06:38:46.689+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-16T06:38:47.433+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

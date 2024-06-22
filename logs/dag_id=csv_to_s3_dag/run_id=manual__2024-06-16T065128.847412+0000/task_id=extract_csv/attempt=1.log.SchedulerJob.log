@@ -1,0 +1,1 @@
+[2024-06-16T06:52:49.219+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: csv_to_s3_dag.extract_csv manual__2024-06-16T06:51:28.847412+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

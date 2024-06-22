@@ -1,0 +1,807 @@
+[2024-06-14T12:40:03.386+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:40:03.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:40:03.392+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:40:03.391+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:40:03.414+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:40:03.406+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    )
+     ^
+SyntaxError: expected ':'
+[2024-06-14T12:40:03.423+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:40:03.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.158 seconds
+[2024-06-14T12:40:33.845+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:40:33.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:40:33.849+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:40:33.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:40:33.866+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:40:33.865+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    )
+     ^
+SyntaxError: expected ':'
+[2024-06-14T12:40:33.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:40:33.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.097 seconds
+[2024-06-14T12:41:06.488+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:41:06.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:41:11.911+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:41:11.910+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:41:14.178+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:41:14.176+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    )
+     ^
+SyntaxError: expected ':'
+[2024-06-14T12:41:14.179+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:41:14.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 8.011 seconds
+[2024-06-14T12:41:44.921+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:41:44.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:41:44.927+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:41:44.927+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:41:44.942+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:41:44.941+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    )
+     ^
+SyntaxError: expected ':'
+[2024-06-14T12:41:44.943+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:41:45.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.200 seconds
+[2024-06-14T12:42:15.721+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:42:15.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:42:15.762+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:42:15.762+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:42:15.779+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:42:15.778+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    )
+     ^
+SyntaxError: expected ':'
+[2024-06-14T12:42:15.780+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:42:16.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.569 seconds
+[2024-06-14T12:42:41.173+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:42:41.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:42:41.187+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:42:41.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:42:41.219+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:42:41.218+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    )
+     ^
+SyntaxError: expected ':'
+[2024-06-14T12:42:41.220+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:42:41.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.134 seconds
+[2024-06-14T12:43:03.807+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:03.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:43:03.812+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:43:03.812+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:03.833+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:43:03.831+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    ):
+      ^
+IndentationError: expected an indented block after 'with' statement on line 15
+[2024-06-14T12:43:03.835+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:03.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.113 seconds
+[2024-06-14T12:43:31.406+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:31.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:43:31.412+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:43:31.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:31.428+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:43:31.426+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    )
+     ^
+SyntaxError: expected ':'
+[2024-06-14T12:43:31.429+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:31.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.137 seconds
+[2024-06-14T12:43:35.462+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:35.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:43:35.466+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:43:35.465+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:35.490+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:43:35.489+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    )
+     ^
+SyntaxError: expected ':'
+[2024-06-14T12:43:35.491+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:35.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.167 seconds
+[2024-06-14T12:43:58.092+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:58.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:43:58.097+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:43:58.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:58.118+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:43:58.117+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 21
+    ):
+      ^
+IndentationError: expected an indented block after 'with' statement on line 15
+[2024-06-14T12:43:58.119+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:43:58.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.094 seconds
+[2024-06-14T12:44:25.582+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:25.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:44:25.586+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:44:25.586+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:25.600+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:44:25.599+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 15
+    with DAG(dag_id='ingestions_V03',
+            ^
+SyntaxError: '(' was never closed
+[2024-06-14T12:44:25.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:25.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.321 seconds
+[2024-06-14T12:44:27.438+0000] {processor.py:161} INFO - Started process (PID=361) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:27.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:44:27.442+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:44:27.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:27.493+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:44:27.482+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22, in <module>
+    task1 = BashOperator(
+            ^^^^^^^^^^^^
+NameError: name 'BashOperator' is not defined
+[2024-06-14T12:44:27.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:27.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.184 seconds
+[2024-06-14T12:44:58.181+0000] {processor.py:161} INFO - Started process (PID=382) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:58.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:44:58.184+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:44:58.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:58.211+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:44:58.201+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22, in <module>
+    task1 = BashOperator(
+            ^^^^^^^^^^^^
+NameError: name 'BashOperator' is not defined
+[2024-06-14T12:44:58.219+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:44:58.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.108 seconds
+[2024-06-14T12:45:10.735+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:45:10.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:45:10.742+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:10.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:45:10.841+0000] {processor.py:840} INFO - DAG(s) 'ingestions_V03' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:45:11.262+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:11.258+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:ingestions_V03
+[2024-06-14T12:45:11.325+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:11.324+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:ingestions_V03
+[2024-06-14T12:45:11.383+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:11.382+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:ingestions_V03
+[2024-06-14T12:45:11.384+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:11.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T12:45:11.415+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:11.415+0000] {dag.py:3118} INFO - Creating ORM DAG for ingestions_V03
+[2024-06-14T12:45:11.442+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:11.442+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestions_V03 to 2024-06-15 00:00:00+00:00, run_after=2024-06-16 00:00:00+00:00
+[2024-06-14T12:45:11.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.906 seconds
+[2024-06-14T12:45:42.135+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:45:42.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:45:42.138+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:42.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:45:42.182+0000] {processor.py:840} INFO - DAG(s) 'ingestions_V03' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:45:43.110+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:43.109+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T12:45:43.254+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:45:43.254+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestions_V03 to 2024-06-15 00:00:00+00:00, run_after=2024-06-16 00:00:00+00:00
+[2024-06-14T12:45:43.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.405 seconds
+[2024-06-14T12:46:13.913+0000] {processor.py:161} INFO - Started process (PID=500) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:46:13.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:46:13.918+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:46:13.917+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:46:13.951+0000] {processor.py:840} INFO - DAG(s) 'ingestions_V03' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:46:14.132+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:46:14.132+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T12:46:14.166+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:46:14.165+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestions_V03 to 2024-06-15 00:00:00+00:00, run_after=2024-06-16 00:00:00+00:00
+[2024-06-14T12:46:14.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.729 seconds
+[2024-06-14T12:46:45.249+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:46:45.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:46:45.253+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:46:45.252+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:46:45.277+0000] {processor.py:840} INFO - DAG(s) 'ingestions_V03' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:46:45.483+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:46:45.482+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T12:46:45.522+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:46:45.522+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestions_V03 to 2024-06-15 00:00:00+00:00, run_after=2024-06-16 00:00:00+00:00
+[2024-06-14T12:46:45.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.548 seconds
+[2024-06-14T12:47:16.120+0000] {processor.py:161} INFO - Started process (PID=552) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:16.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:47:16.126+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:47:16.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:16.166+0000] {processor.py:840} INFO - DAG(s) 'ingestions_V03' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:16.419+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:47:16.419+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T12:47:16.462+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:47:16.461+0000] {dag.py:3954} INFO - Setting next_dagrun for ingestions_V03 to 2024-06-15 00:00:00+00:00, run_after=2024-06-16 00:00:00+00:00
+[2024-06-14T12:47:16.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.434 seconds
+[2024-06-14T12:47:31.630+0000] {processor.py:161} INFO - Started process (PID=567) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:31.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:47:31.633+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:47:31.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:31.650+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:47:31.648+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 23
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:47:31.651+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:31.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.092 seconds
+[2024-06-14T12:47:32.668+0000] {processor.py:161} INFO - Started process (PID=572) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:32.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:47:32.671+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:47:32.671+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:32.691+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:47:32.689+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:47:32.692+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:47:32.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.096 seconds
+[2024-06-14T12:48:03.186+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:48:03.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:48:03.190+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:48:03.190+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:48:03.210+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:48:03.208+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:48:03.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:48:03.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.510 seconds
+[2024-06-14T12:48:34.430+0000] {processor.py:161} INFO - Started process (PID=616) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:48:34.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:48:34.434+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:48:34.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:48:34.453+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:48:34.451+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:48:34.454+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:48:34.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.561 seconds
+[2024-06-14T12:49:05.367+0000] {processor.py:161} INFO - Started process (PID=637) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:49:05.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:49:05.373+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:49:05.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:49:05.426+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:49:05.422+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:49:05.429+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:49:07.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.918 seconds
+[2024-06-14T12:49:43.153+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:49:43.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:49:43.167+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:49:43.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:49:43.210+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:49:43.207+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:49:43.214+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:49:43.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.610 seconds
+[2024-06-14T12:50:14.143+0000] {processor.py:161} INFO - Started process (PID=679) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:50:14.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:50:14.147+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:50:14.146+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:50:14.256+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:50:14.253+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:50:14.258+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:50:14.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.567 seconds
+[2024-06-14T12:50:44.880+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:50:44.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:50:44.883+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:50:44.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:50:44.904+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:50:44.902+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:50:44.905+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:50:46.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.924 seconds
+[2024-06-14T12:51:17.000+0000] {processor.py:161} INFO - Started process (PID=722) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:51:17.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:51:17.003+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:51:17.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:51:17.025+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:51:17.023+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:51:17.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:51:17.455+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.468 seconds
+[2024-06-14T12:51:47.580+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:51:47.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:51:47.583+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:51:47.583+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:51:47.618+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:51:47.616+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:51:47.619+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:51:48.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.477 seconds
+[2024-06-14T12:52:18.739+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:52:18.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:52:18.767+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:52:18.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:52:18.836+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:52:18.834+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:52:18.839+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:52:19.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.772 seconds
+[2024-06-14T12:52:50.842+0000] {processor.py:161} INFO - Started process (PID=770) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:52:50.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:52:50.851+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:52:50.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:52:50.888+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:52:50.885+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:52:50.889+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:52:53.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 2.310 seconds
+[2024-06-14T12:53:23.763+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:53:23.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:53:23.785+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:53:23.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:53:23.909+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:53:23.906+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:53:23.912+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:53:25.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.720 seconds
+[2024-06-14T12:53:55.763+0000] {processor.py:161} INFO - Started process (PID=811) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:53:55.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:53:55.766+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:53:55.765+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:53:55.789+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:53:55.787+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:53:55.790+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:53:58.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 2.261 seconds
+[2024-06-14T12:54:28.351+0000] {processor.py:161} INFO - Started process (PID=832) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:54:28.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:54:28.354+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:54:28.354+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:54:28.390+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:54:28.387+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:54:28.391+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:54:28.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.199 seconds
+[2024-06-14T12:54:58.944+0000] {processor.py:161} INFO - Started process (PID=853) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:54:58.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:54:58.994+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:54:58.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:54:59.255+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:54:59.250+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:54:59.257+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:54:59.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.849 seconds
+[2024-06-14T12:55:30.039+0000] {processor.py:161} INFO - Started process (PID=874) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:55:30.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:55:30.043+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:55:30.042+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:55:30.074+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:55:30.072+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:55:30.075+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:55:30.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.176 seconds
+[2024-06-14T12:56:00.891+0000] {processor.py:161} INFO - Started process (PID=896) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:56:00.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:56:00.894+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:56:00.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:56:00.959+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:56:00.957+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:56:00.960+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:56:01.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.259 seconds
+[2024-06-14T12:56:31.583+0000] {processor.py:161} INFO - Started process (PID=918) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:56:31.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:56:31.590+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:56:31.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:56:31.624+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:56:31.621+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:56:31.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:56:31.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.357 seconds
+[2024-06-14T12:57:02.320+0000] {processor.py:161} INFO - Started process (PID=939) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:57:02.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:57:02.323+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:57:02.323+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:57:02.354+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:57:02.352+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:57:02.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:57:02.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.558 seconds
+[2024-06-14T12:57:33.416+0000] {processor.py:161} INFO - Started process (PID=960) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:57:33.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:57:33.419+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:57:33.418+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:57:33.462+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:57:33.460+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:57:33.463+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:57:33.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.172 seconds
+[2024-06-14T12:58:04.540+0000] {processor.py:161} INFO - Started process (PID=980) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:58:04.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:58:04.641+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:58:04.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:58:04.808+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:58:04.806+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:58:04.819+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:58:06.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.988 seconds
+[2024-06-14T12:58:37.278+0000] {processor.py:161} INFO - Started process (PID=1001) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:58:37.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:58:37.588+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:58:37.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:58:42.675+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:58:42.416+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:58:42.711+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:58:43.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 5.923 seconds
+[2024-06-14T12:59:14.131+0000] {processor.py:161} INFO - Started process (PID=1022) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:59:14.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:59:14.139+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:59:14.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:59:14.222+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:59:14.219+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:59:14.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:59:14.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.342 seconds
+[2024-06-14T12:59:48.356+0000] {processor.py:161} INFO - Started process (PID=1044) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:59:48.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T12:59:50.239+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:59:50.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:59:50.965+0000] {logging_mixin.py:188} INFO - [2024-06-14T12:59:50.962+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T12:59:50.966+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T12:59:53.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 6.660 seconds
+[2024-06-14T13:00:24.509+0000] {processor.py:161} INFO - Started process (PID=1065) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:00:24.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:00:24.610+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:00:24.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:00:24.680+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:00:24.669+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 22
+    ) as dag:
+             ^
+IndentationError: expected an indented block after 'with' statement on line 16
+[2024-06-14T13:00:24.682+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:00:25.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.884 seconds
+[2024-06-14T13:01:22.679+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:01:22.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:01:22.682+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:01:22.682+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:01:52.700+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:01:52.700+0000] {timeout.py:68} ERROR - Process timed out, PID: 1093
+[2024-06-14T13:02:23.818+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:02:23.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:02:23.825+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:23.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:02:35.334+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:02:35.896+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:35.894+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:csv_to_s3_dag
+[2024-06-14T13:02:35.999+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:35.998+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:csv_to_s3_dag
+[2024-06-14T13:02:36.070+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:36.069+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:csv_to_s3_dag
+[2024-06-14T13:02:36.072+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:36.071+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:02:36.087+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:36.086+0000] {dag.py:3118} INFO - Creating ORM DAG for csv_to_s3_dag
+[2024-06-14T13:02:36.105+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:36.104+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:02:36.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 12.628 seconds
+[2024-06-14T13:02:42.880+0000] {processor.py:161} INFO - Started process (PID=1147) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:02:42.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:02:42.883+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:42.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:02:42.905+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:02:42.903+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/airflow_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_dag.py", line 9
+    csv_path = 'C:\Users\Protectorate\airflow\british_air_sentiments.csv'
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-06-14T13:02:42.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:02:43.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 0.435 seconds
+[2024-06-14T13:03:02.320+0000] {processor.py:161} INFO - Started process (PID=1169) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:02.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:03:02.323+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:02.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:03.316+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:03.329+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:03.328+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:03:03.354+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:03.354+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:03:05.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 3.448 seconds
+[2024-06-14T13:03:10.820+0000] {processor.py:161} INFO - Started process (PID=1175) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:10.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:03:10.825+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:10.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:11.554+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:11.584+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:11.583+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:03:11.617+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:11.616+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:03:12.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.235 seconds
+[2024-06-14T13:03:42.313+0000] {processor.py:161} INFO - Started process (PID=1197) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:42.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:03:42.316+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:42.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:43.063+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:03:43.101+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:43.100+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:03:43.137+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:03:43.136+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:03:44.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 2.268 seconds
+[2024-06-14T13:04:16.769+0000] {processor.py:161} INFO - Started process (PID=1220) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:04:16.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:04:16.899+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:04:16.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:04:20.760+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:04:20.799+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:04:20.798+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:04:20.833+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:04:20.833+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:04:21.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 6.713 seconds
+[2024-06-14T13:04:51.600+0000] {processor.py:161} INFO - Started process (PID=1242) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:04:51.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:04:51.603+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:04:51.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:04:52.333+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:04:52.364+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:04:52.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:04:52.392+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:04:52.391+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:04:57.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 5.498 seconds
+[2024-06-14T13:05:28.296+0000] {processor.py:161} INFO - Started process (PID=1258) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:05:28.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:05:28.299+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:05:28.299+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:05:29.048+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:05:29.079+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:05:29.079+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:05:29.122+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:05:29.121+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:05:29.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.927 seconds
+[2024-06-14T13:06:00.816+0000] {processor.py:161} INFO - Started process (PID=1280) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:06:00.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:06:00.819+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:06:00.819+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:06:01.450+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:06:01.473+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:06:01.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:06:01.498+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:06:01.497+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:06:01.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.081 seconds
+[2024-06-14T13:06:32.495+0000] {processor.py:161} INFO - Started process (PID=1302) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:06:32.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:06:32.513+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:06:32.512+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:06:33.456+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:06:33.483+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:06:33.482+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:06:33.523+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:06:33.523+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:06:34.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 1.721 seconds
+[2024-06-14T13:07:05.112+0000] {processor.py:161} INFO - Started process (PID=1324) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:07:05.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:07:05.115+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:07:05.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:07:05.769+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:07:05.797+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:07:05.796+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:07:05.831+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:07:05.830+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:07:09.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 4.233 seconds
+[2024-06-14T13:07:39.649+0000] {processor.py:161} INFO - Started process (PID=1345) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:07:39.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:07:39.680+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:07:39.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:07:40.315+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:07:40.340+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:07:40.340+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:07:40.365+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:07:40.365+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:07:41.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 2.030 seconds
+[2024-06-14T13:08:12.400+0000] {processor.py:161} INFO - Started process (PID=1366) to work on /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:08:12.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_dag.py for tasks to queue
+[2024-06-14T13:08:12.422+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:08:12.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:08:13.063+0000] {processor.py:840} INFO - DAG(s) 'csv_to_s3_dag' retrieved from /opt/airflow/dags/airflow_dag.py
+[2024-06-14T13:08:13.093+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:08:13.092+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T13:08:13.120+0000] {logging_mixin.py:188} INFO - [2024-06-14T13:08:13.119+0000] {dag.py:3954} INFO - Setting next_dagrun for csv_to_s3_dag to 2024-06-13 00:00:00+00:00, run_after=2024-06-14 00:00:00+00:00
+[2024-06-14T13:08:14.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_dag.py took 2.002 seconds
