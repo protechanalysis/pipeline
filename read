@@ -15,4 +15,4 @@ dags\postgres_s3.py follows dags\postgres.py pulling data from the database and 
 
 
 
-git push 12g
+git push 12gh
