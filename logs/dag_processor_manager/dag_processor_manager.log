@@ -23899,3 +23899,113 @@ File Path                         PID    Runtime      # DAGs    # Errors  Last R
 /opt/airflow/dags/postgres.py                              1           0  1.08s           2024-06-22T16:26:41
 /opt/airflow/dags/csv_s3.py                                1           0  0.80s           2024-06-22T16:26:50
 ================================================================================
+[2024-06-22T16:27:23.324+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/randomAPI.py                             1           0  1.75s           2024-06-22T16:27:11
+/opt/airflow/dags/postgres.py                              1           0  1.11s           2024-06-22T16:27:12
+/opt/airflow/dags/postgres_s3.py                           1           0  1.04s           2024-06-22T16:27:05
+/opt/airflow/dags/rush.py                                  1           0  0.92s           2024-06-22T16:27:04
+/opt/airflow/dags/csv_s3.py                                1           0  0.68s           2024-06-22T16:27:22
+================================================================================
+[2024-06-22T16:27:54.206+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres.py                              1           0  1.92s           2024-06-22T16:27:44
+/opt/airflow/dags/rush.py                                  1           0  0.84s           2024-06-22T16:27:35
+/opt/airflow/dags/postgres_s3.py                           1           0  0.80s           2024-06-22T16:27:36
+/opt/airflow/dags/randomAPI.py                             1           0  0.73s           2024-06-22T16:27:42
+/opt/airflow/dags/csv_s3.py        7848  1.05s             1           0  0.68s           2024-06-22T16:27:22
+================================================================================
+[2024-06-22T16:28:24.539+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/randomAPI.py                             1           0  2.97s           2024-06-22T16:28:15
+/opt/airflow/dags/csv_s3.py                                1           0  2.56s           2024-06-22T16:27:55
+/opt/airflow/dags/postgres.py                              1           0  1.68s           2024-06-22T16:28:16
+/opt/airflow/dags/rush.py                                  1           0  1.00s           2024-06-22T16:28:06
+/opt/airflow/dags/postgres_s3.py                           1           0  0.99s           2024-06-22T16:28:07
+================================================================================
+[2024-06-22T16:28:55.109+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rush.py                                  1           0  4.68s           2024-06-22T16:28:41
+/opt/airflow/dags/postgres.py                              1           0  4.38s           2024-06-22T16:28:51
+/opt/airflow/dags/postgres_s3.py                           1           0  4.14s           2024-06-22T16:28:41
+/opt/airflow/dags/randomAPI.py                             1           0  3.55s           2024-06-22T16:28:49
+/opt/airflow/dags/csv_s3.py                                1           0  1.55s           2024-06-22T16:28:27
+================================================================================
+[2024-06-22T16:29:25.120+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/csv_s3.py                                1           0  2.24s           2024-06-22T16:29:00
+/opt/airflow/dags/postgres.py                              1           0  1.50s           2024-06-22T16:29:23
+/opt/airflow/dags/randomAPI.py                             1           0  1.32s           2024-06-22T16:29:21
+/opt/airflow/dags/postgres_s3.py                           1           0  1.06s           2024-06-22T16:29:13
+/opt/airflow/dags/rush.py                                  1           0  1.04s           2024-06-22T16:29:13
+================================================================================
+[2024-06-22T16:29:55.157+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/randomAPI.py                             1           0  3.51s           2024-06-22T16:29:54
+/opt/airflow/dags/postgres.py                              1           0  1.83s           2024-06-22T16:29:55
+/opt/airflow/dags/postgres_s3.py                           1           0  1.58s           2024-06-22T16:29:45
+/opt/airflow/dags/csv_s3.py                                1           0  1.52s           2024-06-22T16:29:32
+/opt/airflow/dags/rush.py                                  1           0  1.20s           2024-06-22T16:29:45
+================================================================================
+[2024-06-22T16:30:01.849+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-06-22T16:30:03.584+0000] {manager.py:740} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-22T16:30:25.183+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/randomAPI.py     8011  0.32s             1           0  3.51s           2024-06-22T16:29:54
+/opt/airflow/dags/postgres.py      8015  0.01s             1           0  1.83s           2024-06-22T16:29:55
+/opt/airflow/dags/rush.py                                  1           0  1.32s           2024-06-22T16:30:17
+/opt/airflow/dags/postgres_s3.py                           1           0  1.32s           2024-06-22T16:30:17
+/opt/airflow/dags/csv_s3.py                                1           0  0.97s           2024-06-22T16:30:04
+================================================================================
+[2024-06-22T16:30:55.272+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/randomAPI.py                             1           0  1.34s           2024-06-22T16:30:26
+/opt/airflow/dags/postgres.py                              1           0  1.31s           2024-06-22T16:30:26
+/opt/airflow/dags/postgres_s3.py                           1           0  1.06s           2024-06-22T16:30:48
+/opt/airflow/dags/rush.py                                  1           0  0.96s           2024-06-22T16:30:48
+/opt/airflow/dags/csv_s3.py                                1           0  0.75s           2024-06-22T16:30:36
+================================================================================
+[2024-06-22T16:31:25.674+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/postgres_s3.py                           1           0  1.17s           2024-06-22T16:31:19
+/opt/airflow/dags/csv_s3.py                                1           0  1.10s           2024-06-22T16:31:07
+/opt/airflow/dags/randomAPI.py                             1           0  1.00s           2024-06-22T16:30:57
+/opt/airflow/dags/rush.py                                  1           0  0.98s           2024-06-22T16:31:19
+/opt/airflow/dags/postgres.py                              1           0  0.77s           2024-06-22T16:30:58
+================================================================================
